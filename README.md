@@ -20,6 +20,7 @@ the repository root from the `main` branch.
 
 - QUANTOS is described as a research and dry-run prototype. It does not connect to a live
   broker or submit real orders.
+- The aluminum-electrolysis research is described as a team contribution, not an individually
+  owned project.
+- MiniPoet is intentionally omitted because Yuan Fang did not participate in that project.
 - Project metrics are limited to facts that can be supported by the project record.
-- Employer, university, graduation date, and private contact information are intentionally
-  omitted until the owner chooses to make them public.
