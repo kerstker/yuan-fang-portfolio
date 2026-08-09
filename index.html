@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Yuan Fang is an Applied AI and Python backend engineer building agent workflows, retrieval systems, evaluation pipelines, and auditable research tools."
+    />
+    <meta name="theme-color" content="#080b10" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Yuan Fang — Applied AI & Python Backend Engineer"
+    />
+    <meta
+      property="og:description"
+      content="Testable AI workflows, retrieval systems, evaluation pipelines, and reliable Python backends."
+    />
+    <meta
+      property="og:url"
+      content="https://kerstker.github.io/yuan-fang-portfolio/"
+    />
+    <meta
+      property="og:image"
+      content="https://kerstker.github.io/yuan-fang-portfolio/assets/og-card.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link
+      rel="canonical"
+      href="https://kerstker.github.io/yuan-fang-portfolio/"
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Yuan Fang",
+        "alternateName": "袁放",
+        "url": "https://kerstker.github.io/yuan-fang-portfolio/",
+        "sameAs": ["https://github.com/kerstker"],
+        "jobTitle": "Applied AI & Python Backend Engineer",
+        "knowsLanguage": ["zh-CN", "en"]
+      }
+    </script>
+    <title>Yuan Fang — Applied AI & Python Backend Engineer</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="site-noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Yuan Fang, home">
+        <span class="brand-mark">YF</span>
+        <span class="brand-name">Yuan Fang</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#approach">Approach</a>
+        <a href="#stack">Stack</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <span class="availability"
+          ><i aria-hidden="true"></i> Available · UTC+8</span
+        >
+        <button
+          class="language-button"
+          type="button"
+          data-dialog-open
+          aria-haspopup="dialog"
+        >
+          中文
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" id="top">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">
+            <span>01</span> Applied AI · Python Backend · Agent Systems
+          </p>
+          <h1>Building AI systems that <em>prove their work.</em></h1>
+          <p class="hero-lede">
+            I’m <strong>Yuan Fang</strong>, a Network Engineering graduate in
+            China. I build testable AI workflows around retrieval, evaluation,
+            APIs, and safe execution—then make their decisions inspectable.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">
+              Explore selected work
+              <span aria-hidden="true">↘</span>
+            </a>
+            <a
+              class="button button-secondary"
+              href="https://github.com/kerstker"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub · @kerstker
+              <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <div class="role-line" aria-label="Roles I am open to">
+            <span>Open to</span>
+            <p>
+              AI Agent Engineer · Applied AI Engineer · Python Backend Engineer
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="hero-system"
+          data-reveal
+          aria-label="Reliable AI workflow diagram"
+        >
+          <div class="system-topline">
+            <span>RELIABLE_AGENT_LOOP</span>
+            <span class="status-pill"><i aria-hidden="true"></i> VERIFIED</span>
+          </div>
+          <div class="system-flow">
+            <div class="system-node node-input">
+              <span class="node-index">01</span>
+              <div>
+                <small>CONTEXT</small>
+                <strong>Point-in-time inputs</strong>
+              </div>
+              <span class="node-state">VALID</span>
+            </div>
+            <div class="flow-connector" aria-hidden="true"><i></i></div>
+            <div class="system-node node-retrieve">
+              <span class="node-index">02</span>
+              <div>
+                <small>RETRIEVE</small>
+                <strong>FAISS-backed memory</strong>
+              </div>
+              <span class="node-state">GROUNDED</span>
+            </div>
+            <div class="flow-connector" aria-hidden="true"><i></i></div>
+            <div class="system-node node-execute">
+              <span class="node-index">03</span>
+              <div>
+                <small>EXECUTE</small>
+                <strong>Constrained API tools</strong>
+              </div>
+              <span class="node-state">GATED</span>
+            </div>
+            <div class="flow-connector" aria-hidden="true"><i></i></div>
+            <div class="system-node node-evaluate">
+              <span class="node-index">04</span>
+              <div>
+                <small>EVALUATE</small>
+                <strong>Tests, metrics & traces</strong>
+              </div>
+              <span class="node-state">AUDITED</span>
+            </div>
+          </div>
+          <div class="system-footer">
+            <span>Design principle</span>
+            <strong
+              >Useful output is not enough. It should be reproducible.</strong
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="proof-strip" aria-label="Selected engineering evidence">
+        <div class="proof-item">
+          <strong>0.3B</strong>
+          <span>parameter model trained</span>
+        </div>
+        <div class="proof-item">
+          <strong>4×4090</strong>
+          <span>distributed training setup</span>
+        </div>
+        <div class="proof-item">
+          <strong>≈2 sec</strong>
+          <span>local memory retrieval prototype</span>
+        </div>
+        <div class="proof-item">
+          <strong>Fail closed</strong>
+          <span>risk-gated dry-run execution</span>
+        </div>
+      </section>
+
+      <section class="section-shell section-block work-section" id="work">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow"><span>02</span> Selected work</p>
+          <h2>From model behavior to backend reliability.</h2>
+          <p>
+            Three research systems that show how I frame problems, connect
+            components, and validate results—not just which libraries I have
+            used.
+          </p>
+        </div>
+
+        <article class="project project-featured" data-reveal>
+          <div class="project-aside">
+            <span class="project-number">01</span>
+            <p class="project-status">
+              <i aria-hidden="true"></i> Research prototype
+            </p>
+          </div>
+          <div class="project-main">
+            <div class="project-title-row">
+              <div>
+                <p class="project-kicker">AI-ASSISTED QUANTITATIVE RESEARCH</p>
+                <h3>QUANTOS</h3>
+              </div>
+              <span class="project-year">DRY-RUN</span>
+            </div>
+            <p class="project-summary">
+              An end-to-end research platform for turning point-in-time market
+              data and alpha expressions into reproducible backtests, validated
+              portfolios, gated dry-runs, and traceable research decisions.
+            </p>
+            <div class="project-grid">
+              <div>
+                <h4>What I built</h4>
+                <ul>
+                  <li>
+                    FastAPI services and a React/TypeScript research console
+                  </li>
+                  <li>Event-driven backtesting with no-lookahead checks</li>
+                  <li>Risk gates, dry-run execution, and PnL reconciliation</li>
+                  <li>Append-only, hash-chained audit records</li>
+                </ul>
+              </div>
+              <div class="evidence-panel">
+                <h4>Safety boundary</h4>
+                <p>
+                  Live broker access and real-order submission are disabled by
+                  design. Results are research evidence—not claims of production
+                  trading performance.
+                </p>
+              </div>
+            </div>
+            <div class="tag-list" aria-label="QUANTOS technologies">
+              <span>Python</span><span>FastAPI</span><span>React</span
+              ><span>TypeScript</span><span>SQLite</span><span>Docker</span
+              ><span>REST API</span><span>SSE</span>
+            </div>
+          </div>
+        </article>
+
+        <div class="project-pair">
+          <article class="project project-card" data-reveal>
+            <div class="project-card-top">
+              <span class="project-number">02</span>
+              <span class="project-label">INDUSTRIAL AI</span>
+            </div>
+            <h3>Temporal Decision Research</h3>
+            <p>
+              Experimental decision modeling for aluminum electrolysis using
+              multivariate time series, policy learning, and retrieval-backed
+              memory.
+            </p>
+            <div class="project-detail">
+              <h4>System work</h4>
+              <ul>
+                <li>
+                  Compared PPO with behavior-cloning and trajectory baselines
+                </li>
+                <li>Prototyped FAISS short- and long-term memory retrieval</li>
+                <li>
+                  Focused evaluation on stability, efficiency, and operational
+                  risk
+                </li>
+              </ul>
+            </div>
+            <div class="validation-line">
+              <span>Prototype signal</span>
+              <strong>≈2 sec local retrieval</strong>
+            </div>
+            <div
+              class="tag-list"
+              aria-label="Temporal decision research technologies"
+            >
+              <span>Python</span><span>PyTorch</span><span>PPO</span
+              ><span>FAISS</span><span>Time Series</span>
+            </div>
+          </article>
+
+          <article class="project project-card project-card-accent" data-reveal>
+            <div class="project-card-top">
+              <span class="project-number">03</span>
+              <span class="project-label">MODEL TRAINING & EVALS</span>
+            </div>
+            <h3>MiniPoet-0.3B</h3>
+            <p>
+              A 0.3B-parameter Chinese poetry language model, trained across
+              four RTX 4090 GPUs and evaluated on a separate RTX 3090.
+            </p>
+            <div class="project-detail">
+              <h4>Evaluation workflow</h4>
+              <ul>
+                <li>CCPM-style language understanding tasks</li>
+                <li>Format accuracy, ROUGE, Distinct, and BERTScore</li>
+                <li>Perplexity plus structured human review</li>
+              </ul>
+            </div>
+            <div class="validation-line">
+              <span>Training setup</span>
+              <strong>4× RTX 4090 · DeepSpeed</strong>
+            </div>
+            <div class="tag-list" aria-label="MiniPoet technologies">
+              <span>PyTorch</span><span>Hugging Face</span><span>DeepSpeed</span
+              ><span>Evaluation</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block approach-section" id="approach">
+        <div class="section-shell">
+          <div class="section-heading section-heading-light" data-reveal>
+            <p class="eyebrow"><span>03</span> Engineering approach</p>
+            <h2>
+              Agent workflows need boundaries, evidence, and a backend that
+              holds up.
+            </h2>
+          </div>
+          <div class="principles-grid">
+            <article data-reveal>
+              <span class="principle-icon" aria-hidden="true">↗</span>
+              <p class="principle-number">01 / ORCHESTRATE</p>
+              <h3>Agent workflows</h3>
+              <p>
+                Connect context, retrieval, APIs, and tools into explicit steps
+                with constrained execution paths and understandable failure
+                states.
+              </p>
+            </article>
+            <article data-reveal>
+              <span class="principle-icon" aria-hidden="true">✓</span>
+              <p class="principle-number">02 / EVALUATE</p>
+              <h3>Verification first</h3>
+              <p>
+                Combine automated checks, domain metrics, regression tests, and
+                human review so model output can be compared instead of merely
+                admired.
+              </p>
+            </article>
+            <article data-reveal>
+              <span class="principle-icon" aria-hidden="true">⌁</span>
+              <p class="principle-number">03 / OPERATE</p>
+              <h3>Reliable backends</h3>
+              <p>
+                Build Python APIs, streaming interfaces, risk gates, and audit
+                trails that make AI behavior observable and safer to integrate.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell section-block stack-section" id="stack">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow"><span>04</span> Working stack</p>
+          <h2>Depth in Python. Breadth across the AI application layer.</h2>
+        </div>
+        <div class="stack-grid" data-reveal>
+          <div class="stack-primary">
+            <p>CORE</p>
+            <h3>Python · FastAPI · PyTorch</h3>
+            <span
+              >Backend services, model workflows, evaluation, and research
+              systems.</span
+            >
+          </div>
+          <div class="stack-group">
+            <p>AI & RETRIEVAL</p>
+            <div class="tag-list tag-list-large">
+              <span>RAG</span><span>FAISS</span><span>Hugging Face</span
+              ><span>DeepSpeed</span><span>PPO</span><span>LangChain</span
+              ><span>Model Evals</span>
+            </div>
+          </div>
+          <div class="stack-group">
+            <p>BACKEND & DATA</p>
+            <div class="tag-list tag-list-large">
+              <span>REST API</span><span>SSE</span><span>SQL</span
+              ><span>SQLite</span><span>Docker</span><span>Linux</span
+              ><span>Git</span>
+            </div>
+          </div>
+          <div class="stack-group">
+            <p>WORKING KNOWLEDGE</p>
+            <div class="tag-list tag-list-large">
+              <span>TypeScript</span><span>React</span><span>Vite</span
+              ><span>Java</span><span>C++</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-shell contact-section" id="contact" data-reveal>
+        <div class="contact-copy">
+          <p class="eyebrow"><span>05</span> Let’s build</p>
+          <h2>
+            Looking for an early-career engineer who tests the system, not only
+            the prompt?
+          </h2>
+          <p>
+            I’m based in China (UTC+8), available for remote full-time or
+            contract work, and able to collaborate asynchronously in written
+            English. Native language: Mandarin Chinese.
+          </p>
+        </div>
+        <div class="contact-card">
+          <span class="contact-orbit" aria-hidden="true"></span>
+          <div>
+            <p>CURRENTLY OPEN TO</p>
+            <strong>AI Agent · Applied AI · Python Backend</strong>
+          </div>
+          <a
+            class="button button-primary"
+            href="https://github.com/kerstker"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Start on GitHub <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year>2026</span> Yuan Fang / 袁放</p>
+      <p>Designed around evidence, clear boundaries, and reproducible work.</p>
+    </footer>
+
+    <dialog class="language-dialog" data-dialog>
+      <div class="dialog-top">
+        <p>中文概览</p>
+        <button
+          type="button"
+          data-dialog-close
+          aria-label="Close Chinese summary"
+        >
+          ×
+        </button>
+      </div>
+      <h2>袁放｜应用 AI 与 Python 后端工程师</h2>
+      <p>
+        网络工程专业毕业，常驻中国（UTC+8）。我主要构建可测试、可追踪的 AI
+        工作流，关注 RAG、Agent 工具调用、模型评测、FastAPI 后端与安全执行边界。
+      </p>
+      <p>
+        代表项目包括：QUANTOS 量化研究与干跑平台、铝电解多变量时序决策与 FAISS
+        记忆检索实验、以及在 4 张 RTX 4090 上训练的 MiniPoet-0.3B 中文诗词模型。
+      </p>
+      <p class="dialog-note">可使用书面英语进行异步远程协作，母语为中文。</p>
+      <a href="#work" class="button button-primary" data-dialog-close
+        >查看项目</a
+      >
+    </dialog>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
